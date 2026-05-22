@@ -23,12 +23,11 @@ To ensure engineering transparency, responsibilities are distinct and mapped cle
 
 | Name / GitHub Handle | Core Team Role | Primary Traceable Contribution & Deliverable Artifacts |
 | :--- | :--- | :--- |
-| *Olamiju Oluwasemilore* | **Project Manager & Git Lead** | Systems architecture coordination, GitHub repository maintenance, code conflict resolution/merging, final evaluation abstract documentation. |
+| *Olamiju Oluwasemilore* | **Project Manager,Translation Engineer & Git Lead** | Systems architecture coordination, GitHub repository maintenance, code conflict resolution/merging, final evaluation abstract documentation.Contextual translation dictionary research, development and deployment of the structural nested Python dictionary array module `translations.py`. |
 | *gameboyzuky* | **UI/UX Designer** | High-fidelity screen wireframe architecture mapping in Figma, multi-dialect typography constraint validation layouts, documentation of asset branches via `figma_design_links.md`. |
 | *Oladeji Ouwasayomi* | **Data Architect** | Data schema engineering, creation and structural maintenance of the multi-column translation dataset matrix file `swift_shop_inventory.csv`. |
 | *Ndiwe Brian* | **Frontend UI Architect** | Base object-oriented Tkinter graphical layout programming (`main.py`), frame allocations, button grids, and internal dynamic reference array setups. |
 | *Ezeani Christabel* | **Localization Engineer** | Algorithmic layout mapping routines, development of the `change_language()` live execution array parser block within the main application runtime class loop. |
-| *Durojaiye Muhammad* | **Translation Engineer** | Contextual translation dictionary research, development and deployment of the structural nested Python dictionary array module `translations.py`. |
 
 ---
 
