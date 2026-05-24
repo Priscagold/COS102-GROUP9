@@ -51,3 +51,43 @@ Ensure your local development computer environment contains Python 3 installed. 
    ```bash
    git clone [https://github.com/Priscagold/COS102-GROUP9.git](https://github.com/Priscagold/COS102-GROUP9.git)
    cd COS102-GROUP9
+
+### TESTING & DEBUGGING
+During the development of this project, several rounds of testing were carried out to ensure that the application functioned properly and provided a smooth user experience for both market women and customers. The testing process focused on usability, language translation flow, navigation, responsiveness, and overall system performance.
+
+KEY ISSUES ENCOUNTERED AND FIXES APPLIED
+1. Language Selection Not Updating Properly
+  ISSUE: User experienced problems where the selected language did not immediately reflect accross all screens of the application.
+  CAUSE: The language state was not being shared properly between components.
+  FIX APPLIED: Global state management and proper prop handling were implemented to ensure that the selected language updated consistently throughout the app.
+
+2. Navigation Errors Between Screens
+   ISSUE: Some users were redirected to incorrect pages or experienced blank screens during navigation.
+   CAUSE: Incorrect routing paths and missing screen configurations.
+   FIX APPLIED: Navigation routes were reviewed, corrected, and tested repeatedly to ensure seamless movement between screens.
+
+3. Translation And Communication Delays
+   ISSUE: Messages and translated content occasionally loaded slowly, affecting communication between buyers and sellers.
+   CAUSE: Inefficient handling of API requests and asynchronous operations.
+   FIX APPLIED: Request handling was optimized, loading states were added, and unnecessary re-renders were reduced to improve performance.
+
+4. UI Responsiveness On Different Devices
+   ISSUE: Certain components appeared misaligned on smaller mobile screens.
+   CAUSE: Fixed width and height values in some sections of the interface.
+   FIX APPLIED: Responsive styling techniques such as Flexbox and percentage based sizing were implemented to ensure compatibility across different screen sizes.
+
+5. Button And Validation Errors
+   ISSUE: Some buttons failed to respond correctly when required input fields were empty.
+   CAUSE: Missing validation checks in forms.
+   FIX APPLIED: Input validation logic was introduced to prevent incomplete submissions and provide feedback messages to users.
+
+TESTING APPROACHES USED
+. Functional Testing
+. User Interface Testing
+. Navigation Testing
+. Responsiveness Testing
+. Manual User Testing
+. Error and Bug tracking
+
+OUTCOME
+After debugging and testing cycles, the application became more stable, responsiveness, and user-friendly. The fixes implemented improved communication between customers and market women, enhanced accessibility through language selection features and ensured smoother interaction across the platform.
