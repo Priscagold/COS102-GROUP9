@@ -44,7 +44,7 @@ The software pipeline runs sequentially through isolated object-oriented structu
 To run the fully localized e-commerce experience locally on an evaluation environment:
 
 ### Prerequisites
-Ensure your local development computer environment contains Python 3 installed. The UI engine relies exclusively on native built-in system components, meaning no exterior third-party library setup is required.
+Ensure your local development computer environment contains Python 3 and Pillow installed. The UI engine relies exclusively on native built-in system components, meaning no exterior third-party library setup is required.
 
 ### Execution Routine
 1. Clone the master repository branch files down into an isolated system folder:
